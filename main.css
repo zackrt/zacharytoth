@@ -38,5 +38,5 @@
   }
   
   section:nth-child(even) {
-    background-color: #ddd;
+    background-color: rgb(64, 64, 66);
   }  
