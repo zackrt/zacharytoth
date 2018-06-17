@@ -40,3 +40,6 @@
   section:nth-child(even) {
     background-color: rgb(64, 64, 66);
   }  
+  img {
+    display: block;
+  }
