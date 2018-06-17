@@ -44,3 +44,6 @@
     margin-right: auto;
     display: block;
   }
+  .portrait-photo {
+    border-radius: 50%;
+  }
