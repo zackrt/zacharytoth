@@ -10,14 +10,19 @@
     text-align: center;
     line-height: 1.5;
   }
+  h1 {
+    color:white;
+  }
   img.background-image {
-    width:fit-content;
+    background: no-repeat center fixed;
     background-size: cover;
+    border: red dotted 2px;
   }
   nav,
   footer {
+    color:white;
     padding: 1% 0;
-    background-color: #aaa;
+    background: linear-gradient(to bottom right, #45145A , #FF5300);
   }
   
   nav {
@@ -35,7 +40,7 @@
   section {
     min-height: 200px;
     padding: 6% 0;
-    background-color: #bbb;
+    background-color: transparent;
   }
   
   section:nth-child(even) {
@@ -71,12 +76,14 @@
   }
   .parallax__layer--back {
     transform: translateZ(-1px);
+    background-size: cover;
+
   }.parallax {
   perspective: 1px;
   height: 100vh;
   overflow-x: hidden;
   overflow-y: auto;
-}
+  }
 .parallax__layer {
   position: absolute;
   top: 0;
@@ -89,4 +96,10 @@
 }
 .parallax__layer--back {
   transform: translateZ(-1px);
+}
+.nyc-background-image{
+  display:block;
+}
+@media and screen only ( max-width: 768px) {
+
 }
