@@ -18,7 +18,10 @@ height: 720%;* {
     background-size: cover;
     border: red dotted 2px;
     margin:-1125px;
-    height: 720%;
+    height: 820%;
+  }
+  img.nyc-background-image {
+
   }
   nav,
   footer {
@@ -55,6 +58,13 @@ height: 720%;* {
     margin-left:auto;
     margin-right: auto;
     display: block;
+  }
+  .personal-summary {
+    display: block;
+    max-width: 920px;
+    text-align: center;
+    margin:auto;
+    padding:15px;
   }
   .portrait {
     border-top-left-radius: 50% 50%;
