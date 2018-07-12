@@ -1,4 +1,4 @@
-* {
+height: 720%;* {
     box-sizing: border-box;
   }
   
@@ -17,6 +17,8 @@
     background: no-repeat center fixed;
     background-size: cover;
     border: red dotted 2px;
+    margin:-1125px;
+    height: 720%;
   }
   nav,
   footer {
@@ -44,9 +46,11 @@
   }
   
   section:nth-child(even) {
-    background-color: #ddd;
+    background-color: white;
   }  
-
+  .regalia-section {
+    color:white;
+  }
   img {
     margin-left:auto;
     margin-right: auto;
