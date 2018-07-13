@@ -4,10 +4,31 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
+a {
+  text-decoration: none;
+}
+nav {
+  text-align: left;
+  margin-left: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 200px;
+  display: inline !important;
+}
+.open-source-link {
+  text-align: right;
+}
+.page-title {
+  text-align: left;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: inline;
+}
 .caption {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 35%;
   width: 50%;
   margin: auto;
   text-align: center;
@@ -19,7 +40,7 @@ body, html {
 h6 {
   text-align: center;
 }
-.regalia-section, .caption {
+.regalia-section.caption {
   left: 0;
   top: 13%; 
   width: 50%;
@@ -29,6 +50,7 @@ h6 {
   background-color: black;
   margin-left: 25%;
   letter-spacing:normal !important;
+  padding-bottom:40px;
 }
 div.content {
   color: #777;
@@ -75,14 +97,19 @@ img {
 }
 .bitcoin-section-div {
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 40px;
 }
 .slam-crown-section {
   text-align: center;
-  padding-bottom: 5px;
+  padding-bottom: 40px;
+}
+.bitcoin-section {
+  padding-top: 20px;
 }
 footer {
   text-align: center;
   color:white;
   background-color:rgb(89, 94, 99);
+  padding-top: 10px;
+  padding-bottom: 20px;
 }
