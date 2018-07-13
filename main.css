@@ -16,16 +16,16 @@ body, html {
   margin-left: 25%;
   letter-spacing: 10px;
 }
-.regalia-section#caption {
-  position: absolute;
+.regalia-section, .caption {
   left: 0;
-  /* top: 50%; */
+  top: 13%; 
   width: 50%;
   margin: auto;
   text-align: center;
   color: white;
   background-color: black;
   margin-left: 25%;
+  letter-spacing:normal !important;
 }
 div.content {
   color: #777;
@@ -60,7 +60,7 @@ img {
 }
 .background-image3 {
   background-image: url("images/los-angeles-skyline.jpg");
-  min-height: 400px;
+  min-height: 540px;
 }
 .background-image1, .background-image2, .background-image3 {
   position: relative;
