@@ -16,7 +16,6 @@ nav {
   margin-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  width: 200px;
   display: inline !important;
 }
 .open-source-link {
@@ -121,6 +120,14 @@ footer {
   padding-bottom: 20px;
 }
 @media only screen and ( max-width: 480px) {
+  div.content {
+    font-size: 16px;
+  }
+  div.caption {
+    min-width: 400px;
+    margin-left: 20%;
+    min-width: 400px;
+  }
   .header-div {
     margin-left: 10%;
   }
