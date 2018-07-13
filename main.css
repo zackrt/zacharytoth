@@ -16,6 +16,9 @@ body, html {
   margin-left: 25%;
   letter-spacing: 10px;
 }
+h6 {
+  text-align: center;
+}
 .regalia-section, .caption {
   left: 0;
   top: 13%; 
