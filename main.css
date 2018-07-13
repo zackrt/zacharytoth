@@ -1,121 +1,85 @@
-height: 720%;* {
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: "Open Sans",
-    sans-serif; 
-    font-size: 20px;
-    color: #444;
-    text-align: center;
-    line-height: 1.5;
-  }
-  h1 {
-    color:white;
-  }
-  img.background-image {
-    background: no-repeat center fixed;
-    background-size: cover;
-    border: red dotted 2px;
-    margin:-1125px;
-    height: 820%;
-  }
-  img.nyc-background-image {
-
-  }
-  nav,
-  footer {
-    color:white;
-    padding: 1% 0;
-    background: linear-gradient(to bottom right, #45145A , #FF5300);
-  }
-  
-  nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-  }
-  
-  header {
-    padding: 12% 0;
-  }
-  /* add padding */
-  section {
-    min-height: 200px;
-    padding: 6% 0;
-    background-color: transparent;
-    padding-left:40px;
-    padding-right:40px;
-  }
-  
-  section:nth-child(even) {
-    background-color: white;
-  }  
-  .regalia-section {
-    color:rgb(244, 6, 6);
-  }
-  img {
-    margin-left:auto;
-    margin-right: auto;
-    display: block;
-  }
-  .personal-summary {
-    display: block;
-    max-width: 920px;
-    text-align: center;
-    margin:auto;
-    padding:15px;
-  }
-  .portrait {
-    border-top-left-radius: 50% 50%;
-    border-top-right-radius: 50% 50%;
-    border-bottom-right-radius: 50% 50%;
-    border-bottom-left-radius: 50% 50%;
-  }
-  .parallax {
-    perspective: 1px;
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-  }
-  .parallax__layer {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-  }
-  .parallax__layer--base {
-    transform: translateZ(0);
-  }
-  .parallax__layer--back {
-    transform: translateZ(-1px);
-    background-size: cover;
-
-  }.parallax {
-  perspective: 1px;
-  height: 100vh;
-  overflow-x: hidden;
-  overflow-y: auto;
-  }
-.parallax__layer {
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.caption {
   position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
   left: 0;
+  top: 50%;
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-left: 25%;
+  letter-spacing: 10px;
 }
-.parallax__layer--base {
-  transform: translateZ(0);
+.regalia-section#caption {
+  position: absolute;
+  left: 0;
+  /* top: 50%; */
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-left: 25%;
 }
-.parallax__layer--back {
-  transform: translateZ(-1px);
+div.content {
+  color: #777;
+  background-color:white;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
 }
-.nyc-background-image{
+div {
   display:block;
 }
-@media and screen only ( max-width: 768px) {
-
+section.video-section {
+  padding: 20px;
+}
+.video-div {
+  background: transparent;
+  display: block;
+  text-align: center;
+}
+img {
+  display: block;
+  margin: auto;
+}
+.background-image1 {
+  background-image: url("images/galaxy-wallpaper-11.jpg");
+  min-height: 100%;
+}
+.background-image2 {
+  background-image: url("images/newyork-skyline.jpg");
+  min-height: 400px;
+  min-width: 400px;
+}
+.background-image3 {
+  background-image: url("images/los-angeles-skyline.jpg");
+  min-height: 400px;
+}
+.background-image1, .background-image2, .background-image3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bitcoin-section-div {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.slam-crown-section {
+  text-align: center;
+  padding-bottom: 5px;
+}
+footer {
+  text-align: center;
+  color:white;
+  background-color:rgb(89, 94, 99);
 }
