@@ -6,6 +6,12 @@ body, html {
 }
 li {
   display: inline;
+  padding: 6px;
+}
+ul {
+  margin-left: 52%;
+  display: inline;
+  position: relative;
 }
 a {
   text-decoration: none;
@@ -15,6 +21,7 @@ p {
   padding-right: 10px;
 }
 nav {
+  height: 25px;
   text-align: left;
   margin-left: 20px;
   padding-top: 10px;
