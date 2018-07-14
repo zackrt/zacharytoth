@@ -9,8 +9,9 @@ li {
   padding: 6px;
 }
 ul {
-  margin-left: 52%;
-  display: inline;
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
   position: relative;
 }
 a {
@@ -21,13 +22,11 @@ p {
   padding-right: 10px;
 }
 nav {
-  height: 25px;
   text-align: left;
   margin-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: inline-block !important;
-  display: flex;
+  height: 50px;
 }
 .page-title {
   text-align: left;
