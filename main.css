@@ -144,6 +144,7 @@ footer {
   div.content {
     font-size: 24px;
     margin: auto;
+    width: 100% !important;
   }
   div.caption {
     margin-left: 0px;
@@ -164,8 +165,9 @@ footer {
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
-  .caption {
-    margin-left: 12%;
+  .header-div.caption {
+    margin-right: 0% !important;
+    margin-left: 0% !important;
   }
   h1 {
     font-size: 20px;
@@ -175,6 +177,6 @@ footer {
     margin: auto;
   }
   .background-image1, .background-image2, .background-image3 {
-    /*min-width: 1024px;*/
+    width:initial;
   }
 }
