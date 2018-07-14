@@ -9,6 +9,8 @@ li {
   padding: 6px;
 }
 ul {
+  padding-left: 10px;
+  padding-right: 20px;
   flex-direction: row;
   justify-content: space-between;
   display: flex;
