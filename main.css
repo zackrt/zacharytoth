@@ -26,7 +26,7 @@ nav {
   margin-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  display: inline !important;
+  display: inline-block !important;
 }
 .open-source-link {
   text-align: right;
@@ -133,6 +133,9 @@ footer {
   padding-bottom: 20px;
 }
 @media only screen and ( max-width: 480px) {
+  ul {
+    margin-left: 30%;
+  }
   div.content {
     font-size: 24px;
     margin: auto;
