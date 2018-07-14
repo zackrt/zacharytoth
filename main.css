@@ -27,6 +27,7 @@ nav {
   padding-top: 10px;
   padding-bottom: 10px;
   display: inline-block !important;
+  display: flex;
 }
 .page-title {
   text-align: left;
