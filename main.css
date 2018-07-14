@@ -4,6 +4,9 @@ body, html {
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
+li {
+  display: inline;
+}
 a {
   text-decoration: none;
 }
