@@ -132,17 +132,22 @@ footer {
   padding-bottom: 20px;
 }
 @media only screen and ( max-width: 480px) {
+  section.video-section {
+    margin-right: 20%;
+  }
   ul {
-    margin-left: 30%;
+     display:none;
+  }
+  nav {
+    max-width: 490px;
   }
   div.content {
     font-size: 24px;
     margin: auto;
   }
   div.caption {
-    min-width: 400px;
-    margin-left: 20%;
-    min-width: 400px;
+    margin-left: 0px;
+    min-width: 480px !important;
   }
   .header-div {
     margin-left: 10%;
@@ -154,11 +159,14 @@ footer {
   .background-image1, .background-image2, .background-image3 {
     min-width: 600px;
   }
-  body, html {
-    min-width: 700px;
+  section.regalia-section {
+  margin-left: 15% !important;
   }
 }
 @media only screen and (min-width: 480px) and (max-width: 768px) {
+  .caption {
+    margin-left: 12%;
+  }
   h1 {
     font-size: 20px;
   }
@@ -167,9 +175,6 @@ footer {
     margin: auto;
   }
   .background-image1, .background-image2, .background-image3 {
-    min-width: 1024px;
-  }
-  body, html {
-    min-width: 1000px;
+    /*min-width: 1024px;*/
   }
 }
