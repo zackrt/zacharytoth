@@ -131,6 +131,27 @@ footer {
   padding-top: 10px;
   padding-bottom: 20px;
 }
+@media only screen and ( max-width: 320px) {
+  div.content {
+    width: 137% !important;
+  }
+  section.video-section {
+    margin-right: 2%;
+  }
+  .bitcoin-section-div {
+    width: 100%;
+    margin-left: 43% !important;
+  }
+  section.regalia-section {
+    margin-left: 25% !important;
+  }
+  .slam-crown-section-div {
+    margin-left: 43% !important;
+  }
+  footer {
+  width: 187% !important;
+  }
+}
 @media only screen and ( max-width: 480px) {
   section.video-section {
     margin-right: 20%;
