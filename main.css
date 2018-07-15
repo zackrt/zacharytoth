@@ -165,7 +165,7 @@ footer {
   div.content {
     font-size: 24px;
     margin: auto;
-    width: 100% !important;
+    width: unset;
   }
   div.caption {
     margin-left: 0px;
@@ -188,7 +188,7 @@ footer {
 @media only screen and (min-width: 480px) and (max-width: 768px) {
   .header-div.caption {
     margin-right: 0% !important;
-    margin-left: 0% !important;
+    margin-left: 5% !important;
   }
   h1 {
     font-size: 20px;
