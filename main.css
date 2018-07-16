@@ -136,30 +136,33 @@ footer {
     display:none;
  }
   .background-image1, .background-image2, .background-image3 {
-    width: 187%!important;
+    width: auto;
   }
   div.content {
-    width: 137% !important;
+    font-size: 20px !important;
+    width:auto;
+    margin: auto;
+    padding: 10px 22px !important;
   }
   section.video-section {
-    margin-left: 4%;
+    margin-right: 17%;
   }
   .bitcoin-section-div {
     width: 100%;
-    margin-left: 43% !important;
+    margin: auto;
   }
   section.regalia-section {
-    margin-left: 25% !important;
+    margin: auto;
   }
   .slam-crown-section-div {
-    margin-left: 62% !important;
+    margin: auto;
     width: fit-content;   
   }
   footer {
-    width: 187% !important;
+    width: 100% ;
   }
   div.header-div.caption {
-    margin-left: 27% !important;
+    margin:auto ;
     padding: 0 10px;
   }
 }
