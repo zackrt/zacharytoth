@@ -152,7 +152,7 @@ footer {
     margin: auto;
   }
   section.regalia-section {
-    margin: auto;
+    margin-left: 3% !important;
   }
   .slam-crown-section-div {
     margin: auto;
