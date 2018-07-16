@@ -132,11 +132,17 @@ footer {
   padding-bottom: 20px;
 }
 @media only screen and ( max-width: 320px) {
+  ul {
+    display:none;
+ }
+  .background-image1, .background-image2, .background-image3 {
+    width: 179% !important;
+  }
   div.content {
     width: 137% !important;
   }
   section.video-section {
-    margin-right: 2%;
+    margin-left: 4%;
   }
   .bitcoin-section-div {
     width: 100%;
@@ -146,13 +152,19 @@ footer {
     margin-left: 25% !important;
   }
   .slam-crown-section-div {
-    margin-left: 43% !important;
+    margin-left: 62% !important;
+    width: fit-content;   
   }
   footer {
-  width: 187% !important;
+    width: 187% !important;
+  }
+  div.header-div.caption {
+    margin-left: 27% !important;
+    padding: 0 10px;
   }
 }
-@media only screen and ( max-width: 480px) {
+
+/* @media only screen and ( max-width: 480px) {
   section.video-section {
     margin-right: 20%;
   }
@@ -184,8 +196,8 @@ footer {
   section.regalia-section {
   margin-left: 15% !important;
   }
-}
-@media only screen and (min-width: 480px) and (max-width: 768px) {
+} */
+@media only screen and /*(min-width: 480px) and */ (max-width: 768px) {
   .header-div.caption {
     margin-right: 0% !important;
     margin-left: 5% !important;
@@ -199,5 +211,19 @@ footer {
   }
   .background-image1, .background-image2, .background-image3 {
     width:initial;
+  }
+  .caption {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-left: 20%;
+    margin-right: 20%;
+    letter-spacing: 9px;
+    min-width: unset !important;
   }
 }
