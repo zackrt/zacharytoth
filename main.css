@@ -28,7 +28,8 @@ nav {
   margin-left: 20px;
   padding-top: 10px;
   padding-bottom: 10px;
-  height: 50px;
+  height: 40px;
+  margin-top: 8px;
 }
 .page-title {
   text-align: left;
@@ -49,7 +50,6 @@ nav {
   margin-left: 20%;
   margin-right: 20%;
   letter-spacing: 9px;
-  min-width: 580px;
 }
 h6 {
   text-align: center;
@@ -68,7 +68,6 @@ h6 {
   margin-left: 25%;
   letter-spacing:normal !important;
   padding-bottom:40px;
-  min-width: 300px !important;
 }
 div.content {
   color: #777;
@@ -131,10 +130,37 @@ footer {
   padding-top: 10px;
   padding-bottom: 20px;
 }
+@media only screen and ( max-width: 485px) {
+  .menu-btn div {
+    position: absolute;
+    left: 100%;
+    top: 64%;
+    padding-right: 8px;
+    margin-top: -0.50em;
+    line-height: 1.2;
+    font-size: 18px;
+    font-weight: 200;
+    vertical-align: middle;
+    z-index: 99;
+  }
+   
+  .menu-btn span {
+    display: block;
+    width: 19px;
+    height: 3px;
+    margin: 4px 0;
+    background: rgb(0,0,0);
+    z-index: 99;
+  }
+  .responsive-menu{
+    display: none;
+  }
+   
+  .expand {
+    display: block !important; 
+  }
+}
 @media only screen and ( max-width: 320px) {
-  ul {
-    display:none;
- }
   .background-image1, .background-image2, .background-image3 {
     width: auto;
   }
@@ -166,40 +192,6 @@ footer {
     padding: 0 10px;
   }
 }
-
-/* @media only screen and ( max-width: 480px) {
-  section.video-section {
-    margin-right: 20%;
-  }
-  ul {
-     display:none;
-  }
-  nav {
-    max-width: 490px;
-  }
-  div.content {
-    font-size: 24px;
-    margin: auto;
-    width: unset;
-  }
-  div.caption {
-    margin-left: 0px;
-    min-width: 480px !important;
-  }
-  .header-div {
-    margin-left: 10%;
-  }
-  h1 {
-    font-size: 15px;
-    min-width: 200px;
-  }
-  .background-image1, .background-image2, .background-image3 {
-    min-width: 600px;
-  }
-  section.regalia-section {
-  margin-left: 15% !important;
-  }
-} */
 @media only screen and /*(min-width: 480px) and */ (max-width: 768px) {
   .header-div.caption {
     margin-right: 0% !important;
