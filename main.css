@@ -8,6 +8,10 @@ li {
   display: inline;
   padding: 6px;
 }
+li > a {
+  font-weight: bold;
+  color:black;
+}
 ul {
   padding-left: 10px;
   padding-right: 20px;
@@ -27,7 +31,7 @@ nav {
   text-align: left;
   margin-left: 20px;
   padding-top: 14px;
-  padding-bottom: 10px;
+  padding-bottom: 15px;
   height: 40px;
   margin-top: 8px;
 }
@@ -130,7 +134,7 @@ footer {
   padding-top: 10px;
   padding-bottom: 20px;
 }
-@media only screen and ( max-width: 489px) {
+@media only screen and ( max-width: 516px) {
   .caption {
     padding-left: 3px;
   }
