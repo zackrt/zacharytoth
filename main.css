@@ -61,7 +61,7 @@ h6 {
 }
 .regalia-section.caption {
   left: 0;
-  top: 13%; 
+  top: 8%;
   width: 50%;
   margin: auto;
   text-align: center;
@@ -197,6 +197,7 @@ footer {
     margin: auto;
   }
   .regalia-section.caption {
+    top: 4%;
     width: 63%;
   }
   section.regalia-section {
