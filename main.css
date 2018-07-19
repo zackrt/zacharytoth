@@ -1,4 +1,5 @@
 body, html {
+  min-width: fit-content;
   height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
@@ -62,14 +63,13 @@ h6 {
 .regalia-section.caption {
   left: 0;
   top: 8%;
-  width: 50%;
   margin: auto;
   text-align: center;
   color: white;
   background-color: black;
   margin-left: 25%;
-  letter-spacing:normal !important;
-  padding-bottom:40px;
+  letter-spacing: normal !important;
+  padding-bottom: 20px;
 }
 div.content {
   color: #777;
